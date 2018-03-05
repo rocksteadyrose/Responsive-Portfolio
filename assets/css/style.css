@@ -405,9 +405,9 @@ footer {
 
 .figures {
     position: relative;
-    width: 500px;
+    width: 250px;
     float: left;
-    margin: 20px 0 25px 30px;
+    margin: 20px 0 5px 15px;
     overflow: hidden;
     z-index: 0;
 }
