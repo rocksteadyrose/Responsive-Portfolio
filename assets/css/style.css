@@ -64,8 +64,6 @@
     text-shadow: 0 2px 2px #04045C;
 }
 
-
-
 .hr {
     border-top: 1px solid #EE728C;
     margin-bottom: 15px;
@@ -138,7 +136,6 @@ li a:hover {
 }
 
 #contact {
-    /*line-height: 20px;*/
     color: #04045C;
 }
 
@@ -147,26 +144,34 @@ li a:hover {
     padding: 5px 0 10px 0;
 }
 
+#portfolio {
+    padding: 15px 40px;
+}
+
 #portfolio .hr {
-    width: 98%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #portfolio h2 {
     font-size: 25px;
-    padding: 10px 0 20px 10px;
+    padding: 10px 0 10px 0;
 }
 
 .figures {
     position: relative;
-    width: 274px;
+    width: 270px;
     float: left;
     margin: 20px 0 25px;
     overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.figures:nth-child(odd), .figures:nth-child(even) {
-    margin-right: 20px;
-    padding-left: 10px;
+.childtarget {
+    margin-left: 22px;
 }
 
 .figures img {
@@ -174,8 +179,6 @@ li a:hover {
     border: 0 none;
     float: left;
     width: 100%;
-    margin-top: 10px;
-    margin-right: 25px;
     border: 0 none;
 }
 
@@ -235,13 +238,19 @@ li a:hover {
 }
 
 #connect h1 {
-    padding-bottom: 22px;
     font-size: 25px;
 }
 
+#connect hr {
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+
 #github, #stack, #linkedin {
-    width: 30%;
+    width: 32%;
     height: 75px;
+    margin-top: 10px;
 }
 
 #github:hover, #stack:hover, #linkedin:hover {
@@ -303,18 +312,30 @@ footer {
     padding: 15px 25px;
 }
 
+#portfolio {
+    padding: 15px 25px;
+}
+
+#portfolio h2 {
+    font-size: 25px;
+    padding: 4px 0 5px 0;
+}
+
+#portfolio .hr {
+    display: block;
+    margin-top: 0.9em;
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .figures {
     position: relative;
-    width: 400px;
+    width: 412px;
     float: left;
-    margin: 20px 0 25px 1px;
+    margin: 20px 0 25px 0;
     overflow: hidden;
-}
-
-.figures:nth-child(odd), .figures:nth-child(even) {
-    margin-right: 20px;
-    padding-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .figures img {
@@ -322,8 +343,7 @@ footer {
     border: 0 none;
     float: left;
     width: 100%;
-    margin-top: 10px;
-    margin-right: 25px;
+    margin-top: 5px;
     border: 0 none;
 }
 
@@ -352,7 +372,7 @@ footer {
   }
 
     #github, #stack, #linkedin {
-        width: 28%;
+        width: 32%;
         height: 75px;
     }
 }
@@ -405,16 +425,20 @@ footer {
 
 .figures {
     position: relative;
-    width: 250px;
+    width: 274px;
     float: left;
-    margin: 20px 0 5px 15px;
+    margin: 20px 0 5px 4px;
     overflow: hidden;
     z-index: 0;
 }
 
+.childtarget {
+    margin-left: 30px;
+}
+
   #connect {
     background-color: #EEC89C;
-    text-align: center;
+    text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 3px solid #1CBABC;
     margin-top: 15px;
@@ -422,8 +446,14 @@ footer {
     width: 640px;
 }
 
+#connect hr {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
  #github, #stack, #linkedin {
-    width: 15%;
+    width: 13%;
     height: 75px;
 }
 }
@@ -491,7 +521,6 @@ footer {
       padding: 15px 25px;
   }
   
-
   .figures {
     position: relative;
     width: 450px;
@@ -500,58 +529,27 @@ footer {
     overflow: hidden;
 }
   
-  #hangmanfigure, #rpgfigure, #triviafigure, #rutgersfigure, #rpscissorsfigure {
-      position: relative;
-      margin: 0 auto;
-  }
-  
-  #hangmancaption {
-      position: absolute;
-      top: 170px;
-      left: 12px;
-      padding: 15px 93.5px 15px 98.5px;
-  }
-  
-  #rpgcaption {
-      position: absolute;
-      top: 170px;
-      right: 11.8px;
-      padding: 15px 95.2px 15px 90.5px;
-  }
-  
-  #triviacaption {
-      position: absolute;
-      top: 170px;
-      left: 12px;
-      padding: 15px 87.1px 15px 88px;
-  }
-  
-  #rutgerscaption {
-      position: absolute;
-      padding: 0 43px 0 32px;
-      top: 170px;
-      right: 12px;
-      padding: 15px 60px 15px 52px;
-  }
-  
-  #rpscissorscaption {
-      position: absolute;
-      padding: 0px 36.5px 0px;
-      top: 170px;
-      left: 12px;
-      padding: 15px 52px 15px 57px;
-  }
-  
   #connect {
       float: right;
       background-color: #EEC89C;
-      text-align: center;
+      text-align: left;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border: 3px solid #1CBABC;
       margin-top: 15px;
       padding: 20px;
       width: 520px;
   }
+
+  #connect hr {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+ #github, #stack, #linkedin {
+    width: 15%;
+    height: 75px;
+}
 
 /*Screen size: 375px (Trying to adjust for iPhone just for fun!) */
 
