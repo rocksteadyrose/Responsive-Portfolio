@@ -130,7 +130,7 @@ li a:hover {
 
 #aboutpic {
     width: 200px;
-    margin: 8px 18px 0 0;
+    margin: 0 18px 0 0;
     float: left;
     padding-bottom: 3px;
 }
@@ -268,15 +268,15 @@ footer {
 }
 
 /* Screen size: 980px */
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     body {
-        font-family: "assistantregular", Arial, Helvetica, sans-serif;
-        background-image: url('../images/021 True Sunset.png');
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        color: #04045C;
+    font-family: "assistantregular", Arial, Helvetica, sans-serif;
+    background-image: url('../images/021 True Sunset.png');
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #04045C;
     }
   
   #nav-container {
@@ -332,10 +332,8 @@ footer {
 .figures {
     position: relative;
     width: 412px;
-    float: left;
     margin: 20px 0 25px 0;
-    overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 5px 10px 18px -15px rgba(0, 0, 0, 0.2), 0 6px 20px -5px rgba(0, 0, 0, 0.19);
 }
 
 .figures img {
@@ -374,46 +372,46 @@ footer {
     text-align: left;
   }
 
-    #github, #stack, #linkedin {
-        width: 32%;
-        height: 75px;
-    }
+  #github, #stack, #linkedin {
+    width: 32%;
+    height: 75px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        font-family: "assistantregular", Arial, Helvetica, sans-serif;
-        background-image: url('../images/021 True Sunset.png');
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        color: #04045C;
-    }
+@media screen and (max-width: 768px) {
+  body {
+    font-family: "assistantregular", Arial, Helvetica, sans-serif;
+    background-image: url('../images/021 True Sunset.png');
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #04045C;
+}
   
   #nav-container {
-      width: 100%;
-      background-color: #1CBABC;
-      float: left;
-      height: 70px;
-      border-bottom: solid #EEA25F 3px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      overflow: hidden;
-      position: fixed;
-      z-index: 1;
+    width: 100%;
+    background-color: #1CBABC;
+    float: left;
+    height: 70px;
+    border-bottom: solid #EEA25F 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
   }
   
   #navbar {
-      width: 640px;
-      margin: 0 auto;
+    width: 640px;
+    margin: 0 auto;
   }
   
   #wrapper {
-      margin: 0 auto;
-      max-width: 640px;
-      flex: 1;
-      padding-top: 20px;
-      margin-top: 60px;
+    margin: 0 auto;
+    max-width: 640px;
+    flex: 1;
+    padding-top: 20px;
+    margin-top: 60px;
   }
 
   #about, #contact, #portfolio {
@@ -421,7 +419,7 @@ footer {
     background-color: #EEC89C;
     margin: 15px 0 10px;
     border: 3px solid #1CBABC;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 5px 10px 18px -15px rgba(0, 0, 0, 0.2), 0 6px 20px -5px rgba(0, 0, 0, 0.19);
     float: left;
     padding: 15px 25px;
 }
@@ -462,8 +460,7 @@ footer {
 }
 
 /*Screen size: 640px*/
-
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     body {
         font-family: "assistantregular", Arial, Helvetica, sans-serif;
         background-image: url('../images/021 True Sunset.png');
@@ -508,20 +505,20 @@ footer {
 }
 
   #wrapper {
-      margin: 0 auto;
-      width: 520px;
-      flex: 1;
-      padding-top: 20px;
+    margin: 0 auto;
+    width: 520px;
+    flex: 1;
+    padding-top: 20px;
   }
   
   #about, #contact, #portfolio {
-      width: 520px;
-      background-color: #EEC89C;
-      margin: 15px 0 10px;
-      border: 3px solid #1CBABC;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      float: left;
-      padding: 15px 25px;
+    width: 520px;
+    background-color: #EEC89C;
+    margin: 15px 0 10px;
+    border: 3px solid #1CBABC;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    padding: 15px 25px;
   }
   
   .figures {
@@ -533,14 +530,14 @@ footer {
 }
   
   #connect {
-      float: right;
-      background-color: #EEC89C;
-      text-align: left;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      border: 3px solid #1CBABC;
-      margin-top: 15px;
-      padding: 20px;
-      width: 520px;
+    float: right;
+    background-color: #EEC89C;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid #1CBABC;
+    margin-top: 15px;
+    padding: 20px;
+    width: 520px;
   }
 
   #connect hr {
@@ -555,21 +552,20 @@ footer {
 }
 
 /*Screen size: 375px (Trying to adjust for iPhone just for fun!) */
-
-@media only screen 
-and (max-width: 400px) 
-and (max-width: 667px) 
-and (-webkit-min-device-pixel-ratio: 2) {
+    @media screen 
+    and (max-width: 400px) 
+    and (max-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
   
   #nav-container {
-      width: 100%;
-      background-color: #1CBABC;
-      margin: 0 auto;
-      height: 130px;
-      border-bottom: solid #EEA25F 3px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      position: static;
-      text-align: center;
+    width: 100%;
+    background-color: #1CBABC;
+    margin: 0 auto;
+    height: 130px;
+    border-bottom: solid #EEA25F 3px;
+    box-shadow: 5px 10px 18px -35px rgba(0, 0, 0, 0.2), 0 6px 20px -35px rgba(0, 0, 0, 0.19);
+    position: static;
+    text-align: center;
   }
 
   #navbar {
@@ -595,20 +591,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
   #wrapper {
-      margin: 0 auto;
-      width: 300px;
-      flex: 1;
-      padding-top: 20px;
+    margin: 0 auto;
+    width: 300px;
+    flex: 1;
+    padding-top: 20px;
   }
   
   #about, #contact, #portfolio {
-      width: 300px;
-      background-color: #EEC89C;
-      margin: 15px 0 10px;
-      border: 3px solid #1CBABC;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      float: left;
-      padding: 15px 25px;
+    width: 300px;
+    background-color: #EEC89C;
+    margin: 15px 0 10px;
+    border: 3px solid #1CBABC;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    padding: 15px 25px;
   }
   
 
@@ -621,16 +617,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
   
   #connect {
-      float: right;
-      background-color: #EEC89C;
-      text-align: center;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      border: 3px solid #1CBABC;
-      margin-top: 15px;
-      width: 300px;
+    float: right;
+    background-color: #EEC89C;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid #1CBABC;
+    margin-top: 15px;
+    width: 300px;
     }
 
     #connect img {
-        width: 70px;
+    width: 70px;
     }
 }
