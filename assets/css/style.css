@@ -76,10 +76,6 @@
     to {color:rgb(255, 210, 11);}
 }
 
-#name a:visited, #name a:active {
-    color: #6CD1C8;
-}
-
 .hr {
     border-top: 1px solid #EE728C;
     margin-bottom: 15px;
@@ -123,6 +119,10 @@ li a {
 li a:hover {
     color: #EE728C;
     background-color: #04045C;
+}
+
+#name a:active, #name a:visited {
+    color: #6CD1C8;
 }
 
 #about, #contact, #portfolio {
