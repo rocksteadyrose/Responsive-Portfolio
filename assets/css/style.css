@@ -47,21 +47,37 @@
     padding-top: 20px;
 }
 
-#name a {
-    text-decoration: none;
-    color: #6CD1C8;
-}
-
 #name {
     float: left;
-    background-color: #EE728C;
     color: #6CD1C8;
+    background-color: #EE728C;
     padding: 25px 25px 15px 25px;
     line-height: 18px;
     font-family: "sailregular";
     font-size: 30px;
     height: 70px;
     text-shadow: 0 2px 2px #04045C;
+}
+
+#name a {
+    text-decoration: none;
+    color: #6CD1C8
+    -webkit-animation: animate 4s; /* Safari 4.0 - 8.0 */
+    animation: animate 10s;
+}
+
+@-webkit-keyframes animate {
+    from {color: #6CD1C8;}
+    to {color:rgb(255, 210, 11);}
+}
+
+@keyframes animate {
+    from {color: #6CD1C8;}
+    to {color:rgb(255, 210, 11);}
+}
+
+#name a:visited, #name a:active {
+    color: #6CD1C8;
 }
 
 .hr {
@@ -378,6 +394,7 @@ footer {
   }
 }
 
+/* Screen size: 768px */
 @media screen and (max-width: 768px) {
   body {
     font-family: "assistantregular", Arial, Helvetica, sans-serif;
