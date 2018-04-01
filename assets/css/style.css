@@ -581,10 +581,9 @@ li a {
 }
 
 /*Screen size: 375px (Trying to adjust for iPhone just for fun!) */
-    @media screen 
-    and (max-width: 400px) 
-    and (max-width: 667px) 
-    and (-webkit-min-device-pixel-ratio: 2) {
+    @media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) {
   
   #nav-container {
     width: 100%;
